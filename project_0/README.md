@@ -6,7 +6,7 @@
 [2. Какой кейс решаем?](https://github.com/beg191/sf_data_science/tree/main/project_0#какой-кейс-решаем)
 
 
-[3. Краткая информация о данных](https://github.com/beg191/sf_data_science/tree/main/project_0#краткая-информация-щ-данных)
+[3. Краткая информация о данных](https://github.com/beg191/sf_data_science/tree/main/project_0#краткая-информация-о-данных)
 
 [4. Этапы работы над проектом](______)
 
