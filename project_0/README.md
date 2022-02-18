@@ -8,11 +8,11 @@
 
 [3. Краткая информация о данных](https://github.com/beg191/sf_data_science/tree/main/project_0#краткая-информация-о-данных)
 
-[4. Этапы работы над проектом](______)
+[4. Этапы работы над проектом](https://github.com/beg191/sf_data_science/tree/main/project_0#этапы-работы-над-проектом)
 
-[5. Результаты](______)
+[5. Результаты](https://github.com/beg191/sf_data_science/tree/main/project_0#результаты)
 
-[6. Выводы](______)
+[6. Выводы](https://github.com/beg191/sf_data_science/tree/main/project_0#выводы)
 
 
 ### Описание проекта
