@@ -15,13 +15,18 @@ def random_predict(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0
-
+    min = 1
+    max = 101
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101)  # предполагаемое число
+        predict_number = (max - min)//2 + min #Предполагаемое число
+        if number > predict_number:
+            min = predict_number     #Если загаданное число больше, увеличиваем минимум диапазона
+        if number < predict_number:
+            max = predict_number     #Если загаданное число меньше, уменьшаем максимум диапазона
         if number == predict_number:
-            break  # выход из цикла если угадали
-    return count
+            break #выход из цикла, если угадали
+    return(count)
 
 
 def score_game(random_predict) -> int:
