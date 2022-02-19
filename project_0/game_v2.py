@@ -14,12 +14,12 @@ def random_predict(number:int=1)->int:
     count_max = 101
     while True:
         count += 1
+#       predict_number = np.random.randint(1,101) #Предполагаемое число
         predict_number = (count_max - count_min)//2 + count_min #Предполагаемое число
         if number > predict_number:
             count_min = predict_number
         if number < predict_number:
             count_max = predict_number
-#       predict_number = np.random.randint(1,101) #Предполагаемое число
         if number == predict_number:
             break #выход из цикла, если угадали
     return(count)
