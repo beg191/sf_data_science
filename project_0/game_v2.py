@@ -46,7 +46,15 @@ def score_game(random_predict) -> int:
         count_ls.append(random_predict(number))
 
     score = int(np.mean(count_ls))
-    print(f"Ваш алгоритм угадывает число в среднем за: {score} попыток")
+    n_min = min(count_ls)
+    n_max = max(count_ls)
+    print(f"\nВаш алгоритм угадывает число в среднем за: {score} попыток\n")
+    print(f"Числа угадывались за {n_min} - {n_max} попыток:")
+    for n in range(n_min, n_max +1): # выводим, по сколько раз было угадывание за n попыток
+        if n == 1: l = "шаг"
+        if 1 < n < 5: l = "шага"
+        if n > 4: l = "шагов"
+        print(f"За {n} {l} число было угадано {count_ls.count(n)} раз.")
     return score
 
 
